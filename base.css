@@ -12,7 +12,7 @@ div > p {
 }
 
 /* --------------- Mobile view styling------------------- */
-@media(max-width:700px){
+@media(max-width:768px){
 
   body{
     width: 480px;
@@ -28,7 +28,7 @@ div > p {
 /* --------------- Desktop view styling------------------- */
 
 
-@media(min-width:701px){
+@media(min-width:769px){
 
   body{
     width: 960px;
