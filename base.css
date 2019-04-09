@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+/* Makes the letters appear in center of their containers */
+div > p {
+  text-align: center;
+}
+
+/* --------------- Mobile view styling------------------- */
+@media(max-width:700px){
+
+  body{
+    width: 480px;
+  }
+
+  div{
+    background-color: rebeccapurple;
+  }
+
+}
+
+
+/* --------------- Desktop view styling------------------- */
+
+
+@media(min-width:701px){
+
+  body{
+    width: 960px;
+  }
+
+  div{
+    background-color: darksalmon;
+  }
+
+}
