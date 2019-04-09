@@ -6,7 +6,7 @@ div {
 
 
 /* Box parameters */
-@media(max-width:700px){
+@media(max-width:768px){
   .a {
     width: 480px;
     height: 75px;
@@ -73,7 +73,7 @@ div {
 
 
 /* Box parameters */
-@media(min-width:701px){
+@media(min-width:769px){
   .a {
     width: 960px;
     height: 100px;
