@@ -3,3 +3,158 @@ div {
 }
 
 /* --------------- Mobile view styling------------------- */
+
+/* Box parameters */
+@media(max-width:768px){
+  .a {
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color: chocolate;
+  }
+
+  .b {
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    background-color: coral;
+  }
+
+  .c {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: cornflowerblue;
+  }
+
+  .d {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: cornsilk;
+  }
+
+  .e, .f, .g, .h{
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  .e{
+    background-color: darkorchid;
+  }
+
+  .f{
+    background-color: orchid;
+  }
+
+  .g{
+    background-color: limegreen;
+  }
+
+  .h{
+    background-color: magenta ;
+  }
+
+  .i {
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    background-color: cyan;
+  }
+}
+
+
+
+
+
+/* --------------- Desktop view styling------------------- */
+
+
+/* Box parameters */
+@media(min-width:769px){
+  .a {
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+    background-color: indianred
+  }
+
+  .b {
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
+    background-color: darkolivegreen
+  }
+
+  .c {
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+    background-color: darkseagreen
+  }
+
+  .d {
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+    background-color: khaki
+  }
+
+  .e, .f, .g, .h{
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  .e{
+    background-color: powderblue;
+  }
+
+  .f{
+    background-color: pink;
+  }
+
+  .g{
+    background-color: mediumseagreen;
+  }
+
+  .h{
+    background-color: purple;
+  }
+
+  .i {
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+    background-color: mediumorchid
+  }
+}
+
+@media(max-width:768px){
+
+  body{
+    width: 480px;
+  }
+
+  div{
+    background-color: rebeccapurple;
+  }
+
+}
+
+
+/* --------------- Desktop view styling------------------- */
+
+
+@media(min-width:769px){
+
+  body{
+    width: 960px;
+  }
+
+  div{
+    background-color: darksalmon;
+  }
+
+}
